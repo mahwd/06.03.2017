@@ -1,0 +1,55 @@
+body , html {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: new ;
+  src: url(../font/Acidic.otf);
+}
+/**{
+  transition: all 5s ;
+}*/
+*{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                 not supported by any browser */
+}
+
+.container {
+  width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  }
+.clock {
+  width: 70%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/clock.gif);
+  background-size: contain;
+  position: relative;
+  left: 144px;
+  top: 40px;
+}
+.arrow {
+  background: #000;
+  position: absolute;
+  left: 297px;
+  bottom: 300px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+#sec {
+  width: 3px;
+  height: 180px;
+}
+#min {
+  width: 4px;
+  height: 140px;
+}
+#hour {
+  width: 4px;
+  height: 100px;
+}
